@@ -1,0 +1,98 @@
+body {
+  border: 5px solid #f6cbed;
+  padding: 45px;
+  margin: 80px;
+}
+h1 {
+  color: black;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  opacity: 0.8;
+  padding: 15px;
+}
+h2 {
+  color: #b5a3db;
+  text-decoration: underline;
+}
+h3 {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: capitalize;
+}
+h4 {
+  color: blueviolet;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+#weather-description {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  font-size: large;
+}
+h5 {
+  font-weight: bold;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+#temperature {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: blueviolet;
+  font-size: 64px;
+}
+span {
+  font-size: small;
+  text-align: top;
+}
+#humidity {
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#wind {
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+a {
+  text-decoration: none;
+  text-align: top;
+  color: hotpink;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+}
+.weatherApp {
+  position: relative;
+  left: 12%;
+}
+.weatherIcon {
+  margin: 0 auto;
+  text-align: center;
+}
+section {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  opacity: 0.8;
+  text-align: center;
+}
+#city-input {
+  width: 50%;
+  background-color: #f6cbed;
+  border-color: blueviolet;
+}
+input {
+  color: blueviolet;
+  border-color: blueviolet;
+}
+button {
+  color: blueviolet;
+  border-color: blueviolet;
+}
+hr {
+  color: #b5a3db;
+}
