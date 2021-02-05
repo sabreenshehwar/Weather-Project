@@ -1,5 +1,5 @@
 
-unction search(event) {
+function search(event) {
   event.preventDefault();
   let cityElement = document.querySelector("h3");
   let cityInput = document.querySelector("#city-input");
