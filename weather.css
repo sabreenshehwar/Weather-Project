@@ -1,58 +1,101 @@
 body {
-  border: 5px solid #f6cbed;
-  padding: 45px;
-  margin: 80px;
+  margin: 0 auto;
+  max-width: 450px;
+  padding: 10px;
 }
+main {
+  background-image: url("subtle-motion-gif-3gif.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
-  color: black;
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  color: #ffffff;
   opacity: 0.8;
   padding: 15px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 h2 {
-  color: #b5a3db;
+  color: #f6cbed;
+  opacity: 0.8;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-decoration: underline;
 }
 h3 {
-  color: black;
+  color: #f6cbed;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-transform: capitalize;
 }
 h4 {
-  color: blueviolet;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-decoration: underline;
-}
-#weather-description {
+  color: #ffffff;
+  opacity: 0.8;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-transform: capitalize;
-  font-size: large;
+  text-align: right;
+  text-decoration: underline;
+  text-decoration-color: #b5a3db;
 }
+#updated {
+  text-align: right;
+  font-size: larger;
+}
+#weather-description {
+  color: #ffffff;
+  opacity: 0.8;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  display: block;
+  font-size: xx-large;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: #ac93cb;
+}
+
 h5 {
   font-weight: bold;
+  color: #f6cbed;
+  opacity: 0.8;
+  text-align: center;
+  display: block;
+  font-size: smaller;
 }
 
 h6 {
+  font-weight: lighter;
+  color: #f6cbed;
+  opacity: 0.8;
   font-weight: bold;
+  text-align: center;
+  display: block;
+  font-size: smaller;
 }
 
 #temperature {
   font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: blueviolet;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #cd6b90;
+  opacity: 0.8;
   font-size: 64px;
+  display: block;
 }
 span {
   font-size: small;
   text-align: top;
 }
 #humidity {
+  color: #ffffff;
+  opacity: 0.8;
   font-size: large;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
 }
 #wind {
+  color: #ffffff;
+  opacity: 0.8;
   font-size: large;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  display: block;
 }
 a {
   text-decoration: none;
@@ -63,9 +106,12 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0 auto;
+  color: #ffffff;
+  opacity: 0.8;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: large;
+  display: block;
 }
 .weatherApp {
   position: relative;
@@ -75,24 +121,44 @@ ul {
   margin: 0 auto;
   text-align: center;
 }
-section {
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  opacity: 0.8;
-  text-align: center;
-}
 #city-input {
-  width: 50%;
+  width: 60%;
   background-color: #f6cbed;
+  opacity: 0.8;
   border-color: blueviolet;
+  align-items: center;
+  padding: 0.8%;
+  display: block;
 }
 input {
-  color: blueviolet;
-  border-color: blueviolet;
+  background-color: #cd6b90;
+  color: #ffffff;
+  opacity: 0.8;
+  text-align: center;
+  padding: 0.8%;
+  display: block;
 }
 button {
-  color: blueviolet;
-  border-color: blueviolet;
+  background-color: #cd6b90;
+  color: #ffffff;
+  opacity: 0.8;
+  text-align: center;
+  padding: 0.8%;
+  display: block;
 }
 hr {
-  color: #b5a3db;
+  color: hotpink;
+}
+#open-source {
+  text-align: end;
+}
+.card {
+  background-color: rgba(239, 248, 254, 0.08);
+  display: block;
+  margin: 0 auto;
+}
+.card-body {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
