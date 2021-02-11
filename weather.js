@@ -14,6 +14,14 @@ function searchCity(city) {
 }
 let citySearch = document.querySelector("#search-form");
 citySearch.addEventListener("submit", search);
+
+function showtoday(event) {
+    event.preventDefault();
+    let todayElement = document.querySelector("h4");
+    todayElement.innerHTML = formatDate.value;
+    show(formatDate.value);
+}
+
 function formatDate(timestamp) {
   let date = new date(timestamp);
   let days = [
