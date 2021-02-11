@@ -129,6 +129,7 @@ ul {
   align-items: center;
   padding: 0.8%;
   display: block;
+  margin: 0 auto;
 }
 input {
   background-color: #cd6b90;
@@ -136,7 +137,6 @@ input {
   opacity: 0.8;
   text-align: center;
   padding: 0.8%;
-  display: block;
 }
 button {
   background-color: #cd6b90;
@@ -144,7 +144,6 @@ button {
   opacity: 0.8;
   text-align: center;
   padding: 0.8%;
-  display: block;
 }
 hr {
   color: hotpink;
