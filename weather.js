@@ -1,4 +1,4 @@
-function search(event) {
+ffunction search(event) {
     event.preventDefault();
     let cityElement = document.querySelector("h1");
     let cityInput = document.querySelector("#city-input");
@@ -14,6 +14,7 @@ function searchCity(city) {
 }
 let citySearch = document.querySelector("#search-form");
 citySearch.addEventListener("submit", search);
+
 function formatDate(timestamp) {
     let date = new date(timestamp);
     let days = [
@@ -143,4 +144,5 @@ fahrenheitLink.addEventListener("click", showFahrenheitTemperature);
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", showCelsiusTemperature);
 
-search("new york");
+searchCity("new york");
+
