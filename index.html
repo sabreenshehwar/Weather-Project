@@ -4,81 +4,95 @@
     rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
     crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>Weather App</title>
-    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="weather.css" />
   </head>
   <body>
     <div class="container">
       <main>
+        <div class="row">
+          <div class="col">
+            <h1 id="newCity">New York</h1>
+            <br />
+            <div class="row">
+              <div class="col-12 text-center">
+                <form id="search-form">
+                  <input
+                    type="text"
+                    id="city-input"
+                    placeholder="Enter city here..."
+                    class="enterCity"
+                  />
+                  <br />
+                  <input
+                    type="submit"
+                    value="Enter"
+                    autocomplete="off"
+                    autocomplete="off"
+                  />
+                  <button id="currentLocation">Current Location</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            Current condition:
+            <div id="weather-description"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" id="updated">
+            Last updated:
+            <h4 id="now">Sunday January 16, 2021</h4>
+          </div>
+        </div>
+        <br />
+        <div class="row weather-forecast" id="forecast"></div>
+        <div class="row">
+          <div class="col">
+            <ul>
+              <li id="temperature">
+                -3
+                <span class="units"
+                  ><a href="#" id="celsius-link">°C</a> |
+                  <a href="#" id="fahrenheit-link"> °F </a>
+                </span>
+              </li>
+              <li>Humidity:<span id="humidity"> 77%</span></li>
+              <li>
+                Wind:<span id="wind">
+                  14 km/h
+                  <br />
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
       <div class="row">
         <div class="col">
-          <h1 id= "newCity">
-            New York
-          </h1>
-          <br/>
-          <div class="row">
-          <div class="col-12">
-              <form id="search-form">
-  <input type="text" id="city-input" placeholder="Enter city here..." class="enterCity"/>
-              </br>
-  <input type="submit"value="Enter" autocomplete="off" autocomplete="off"/> 
-    <button id="currentLocation">Current Location</button>
-  </form>
-          </div>
-          </div>
-</br>
-<div class="col-6">
-  Current condition:
-<div id="weather-description">
-</div>
-</div>
- <div class="row">
-<div class="col"id="updated">
-Last updated:
-<h4 id="now">
-  Sunday January 16, 2021
-</h4> 
-</div>
-</div>  
-</br>
- <section>
- <div class="row weather-forecast"id="forecast">
- </section>
-</div> 
-</div>
- <br/>
-        <ul>
-        <li id="temperature">
-        -3 <span class="units"
-        ><a href="#" id="celsius-link">°C</a> | 
-        <a href="#" id="fahrenheit-link"> °F </a>
-          </span>
-        </li>
-         <li>
-        Humidity:<span id="humidity"> 77%</span>
-        </li>
-         <li>
-        Wind:<span id="wind"> 14 km/h
-        </br>
-        </span>
-         </li>
-         </ul> 
-         </div> 
-         </div>    
-    <script src="weather.js"></script>
-    </main>
-     <div class="row">
-         <div class="col">
-    <small id="open-source">
-           <a href="https://github.com/sabreenshehwar/Weather-Project"target="_blank"
-           >open-source code </a> by Sabreen Shehwar
-         </small>   
+          <small id="open-source">
+            <a
+              href="https://github.com/sabreenshehwar/Weather-Project"
+              target="_blank"
+              >open-source code
+            </a>
+            by Sabreen Shehwar
+          </small>
         </div>
+      </div>
+    </div>
+    <script src="weather.js"></script>
   </body>
 </html>
