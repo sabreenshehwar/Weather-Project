@@ -42,7 +42,7 @@ function formatDate(timestamp) {
   let year = now.getFullYear();
   let month = months[now.getMonth()];
   let day = days[date.getDay()];
-  return `${day} ${month} ${date.getDate()} ${year} @ ${formatHours(
+  return `${day} ${month} ${date.getDate()}  ${formatHours(
     timestamp
   )}`;
 }
